@@ -21,6 +21,8 @@ switch (opcao) {
         consulta.medico = prompt("Medico: ");
         consulta.data = prompt("Data: ");
         consulta.horario = prompt("Horário: ");
+
+        console.log("Cadastrado com sucesso")
         break;
         case 2:
         
@@ -38,4 +40,4 @@ switch (opcao) {
     default:
         console.log("Não entendi")
         break;
-}
+}}
